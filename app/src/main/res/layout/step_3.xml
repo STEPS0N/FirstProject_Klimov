@@ -34,18 +34,17 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button3"
+        android:layout_width="313dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/border_rafius"
+        android:onClick="onStepEmail"
+        android:text="ПРОДОЛЖИТЬ"
+        android:textColor="#0099FF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_width="313dp"
-        android:layout_height="50dp"
-        android:background="@drawable/border_rafius"
-        android:text="ПРОДОЛЖИТЬ"
-        android:layout_marginBottom="100dp"
-        android:textColor="#0099FF"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="392dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <RadioGroup
         android:layout_width="149dp"
